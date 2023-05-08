@@ -38,5 +38,4 @@ public class HelloWorldResource {
         return ResponseEntity.ok(message);
     }
 
-
 }
