@@ -37,5 +37,10 @@ public class HelloWorldResource {
         String message = "Hello World!";
         return ResponseEntity.ok(message);
     }
-
+	
+	@GetMapping("/hello4")
+    public ResponseEntity<String> helloWorldNew3() {
+        String message = "Hello World!";
+        return ResponseEntity.ok(message);
+    }
 }
