@@ -25,5 +25,11 @@ public class HelloWorldResource {
         String message = "Hello World!";
         return ResponseEntity.ok(message);
     }
+	
+	@GetMapping("/hello2")
+    public ResponseEntity<String> helloWorldNew1() {
+        String message = "Hello World!";
+        return ResponseEntity.ok(message);
+    }
 
 }
